@@ -16,3 +16,15 @@ CREATE TABLE favorite_movies(
     five_times boolean,
     score INTEGER
     );
+    
+CREATE TABLE programming_languages(
+    id  int auto_increment NOT NULL ,
+    languages VARCHAR(50),
+    rating INTEGER,
+    PRIMARY KEY (id)
+    );
+    
+
+    
+    
+    
